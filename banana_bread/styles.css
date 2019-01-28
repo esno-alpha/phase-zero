@@ -1,0 +1,41 @@
+/* banana bread */
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+background-color: papayawhip;
+font-size: 1.6vw;
+font-family: arial;
+}
+
+article {
+padding: 10px;
+}
+
+p {
+}
+
+ul {
+padding-left: 15px;
+list-style-type: disc;
+}
+
+ol {
+padding-left: 15px
+}
+
+@media (max-width: 800px) {
+    body {
+      font-size: 2vh;
+    }
+}
+
+@media (min-width: 801px) {
+    body {
+      font-size: 2vh;
+    }
+}
